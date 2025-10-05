@@ -85,10 +85,10 @@
         };
 
         new_behavior: new_behavior {
-            compatible = "zmk,behavior-sensor-rotate-var";
+            compatible = "zmk,behavior-sensor-rotate";
             label = "NEW_BEHAVIOR";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&none>;
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
     };
 
@@ -103,7 +103,7 @@
 &kp LANG2         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp LANG1
             >;
 
-            sensor-bindings = <&new_behavior MOVE_Y(10) 0>;
+            sensor-bindings = <&new_behavior>;
         };
 
         FUNCTION {
