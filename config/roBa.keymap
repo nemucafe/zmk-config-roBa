@@ -53,6 +53,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <18 19>;
+        };
+
+        back-h {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 17>;
+        };
     };
 
     macros {
