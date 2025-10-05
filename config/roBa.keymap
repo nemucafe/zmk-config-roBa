@@ -183,10 +183,10 @@
 
         WIN_NAVI {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                     &kp LA(LC(U))               &kp LA(LC(E))           &kp LC(LA(R))      &kp LA(LC(T))            &kp LA(LC(I))
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LA(LC(BACKSPACE))  &kp LA(LC(LG(LEFT_ARROW)))  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(ENTER))  &kp LC(LA(RIGHT_ARROW))  &kp LA(LC(LG(RIGHT_ARROW)))
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LA(LC(C))          &kp LA(LC(J))               &kp LA(LC(D))           &kp LA(LC(F))      &kp LA(LC(G))            &kp LA(LC(K))
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                 &trans                                                                                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans                  &trans              &kp LG(UP_ARROW)    &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(LS(LEFT_ARROW))  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LG(LS(RIGHT_ARROW))
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                  &trans              &trans              &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                               &trans
             >;
         };
 
