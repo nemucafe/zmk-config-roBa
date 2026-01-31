@@ -84,7 +84,6 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
         diode-direction = "col2row";
             row-gpios
                 = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -98,7 +97,7 @@
         compatible = "alps,ec11";
         a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <12>;
+        steps = <24>;
         status = "disabled";
     };
 
@@ -116,6 +115,10 @@
         compatible = "zmk,input-listener";
         status = "disabled";
     };
+};
+
+&uicr {
+    nfct-pins-as-gpios;
 };
 
 &spi0 {
