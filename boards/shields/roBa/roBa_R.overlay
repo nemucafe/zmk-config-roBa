@@ -21,15 +21,15 @@
     status = "okay";
     device = <&trackball>;
 
-    // 精密モード（例：レイヤー6がアクティブな時に1/2速）
-    precision {
-        layers = <6>;
-        input-processors = <&zip_xy_scaler 1 2>;
-    };
-
     scroller {
         layers = <7>;
         input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 20>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+    };
+
+    // 精密モード（レイヤー6がアクティブな時に1/2速）
+    precision {
+        layers = <6>;
+        input-processors = <&zip_xy_scaler 1 2>;
     };
 };
 
