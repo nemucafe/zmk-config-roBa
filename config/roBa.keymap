@@ -281,7 +281,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         // Layer 8: SYSTEM
