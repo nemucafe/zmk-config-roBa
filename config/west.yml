@@ -6,10 +6,6 @@ manifest:
       url-base: https://github.com/cormoran
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
-    - name: 4mplelab
-      url-base: https://github.com/4mplelab
     - name: t-ogura
       url-base: https://github.com/t-ogura
   projects:
@@ -31,12 +27,6 @@ manifest:
       revision: main
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: main
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
-    - name: zmk-feature-charge-indicator
-      remote: 4mplelab
       revision: main
     - name: prospector-zmk-module
       remote: t-ogura
