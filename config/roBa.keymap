@@ -294,7 +294,7 @@
             bindings = <
 &none  &none  &none  &none  &none                             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &none  &none  &none  &none  &none  &none      &none           &to_layer_0   &layer_4_bt1  &none         &layer_1_bt3  &layer_1_bt4
-&none  &none  &none  &none  &none  &none      &none           &to 0         &to 1         &none         &none         &sys_reset
+&none  &none  &none  &none  &none  &none      &none           &to 0         &to 1         &none         &none         &bt BT_CLR
 &none  &none  &none  &none  &none  &none      &studio_unlock  &bt BT_CLR                                              &bt BT_CLR_ALL
             >;
         };
