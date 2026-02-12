@@ -37,12 +37,12 @@ layers:
   - {t: /, h: MOUSE}
   - {t: ESCAPE, h: SYSTEM}
   - LEFT WIN
-  - LEFT ALT
-  - {t: TAB, h: LCMD}
+  - {t: TAB, h: LEFT ALT}
+  - {t: TAB, h: LEFT ALT}
+  - {t: LANG2, h: LCMD}
   - {t: SPACE, h: SYM}
-  - {t: LANG2, h: LEFT ALT}
-  - {t: LANGUAGE 1, h: MNAP}
   - {t: ENTER, h: NAV}
+  - {t: LANG1, h: MNAP}
   - BS
   WIN:
   - Q
@@ -81,12 +81,12 @@ layers:
   - {t: /, h: MOUSE}
   - {t: ESCAPE, h: SYSTEM}
   - LEFT WIN
-  - LEFT ALT
-  - {t: TAB, h: LCTRL}
+  - {t: TAB, h: LEFT ALT}
+  - {t: TAB, h: LALT}
+  - {t: LANG2, h: LCTRL}
   - {t: SPACE, h: SYM}
-  - {t: LANG2, h: LEFT ALT}
-  - {t: LANGUAGE 1, h: WNAP}
   - {t: ENTER, h: NAV}
+  - {t: LANG1, h: WNAP}
   - BS
   NAV:
   - '1'
@@ -129,8 +129,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
   - '!'
@@ -171,8 +171,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
@@ -217,8 +217,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   WNAP:
   - {t: ▽, type: trans}
@@ -261,8 +261,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
@@ -271,8 +271,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
