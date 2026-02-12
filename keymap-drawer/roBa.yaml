@@ -43,7 +43,7 @@ layers:
   - {t: LANG2, h: LEFT ALT}
   - {t: LANGUAGE 1, h: MNAP}
   - {t: ENTER, h: NAV}
-  - BACKSPACE
+  - BS
   WIN:
   - Q
   - W
@@ -87,7 +87,7 @@ layers:
   - {t: LANG2, h: LEFT ALT}
   - {t: LANGUAGE 1, h: WNAP}
   - {t: ENTER, h: NAV}
-  - BACKSPACE
+  - BS
   NAV:
   - '1'
   - '2'
@@ -140,8 +140,8 @@ layers:
   - '%'
   - ^
   - '&'
-  - (
-  - )
+  - LPAR
+  - RPAR
   - '"'
   - '`'
   - '~'
@@ -149,7 +149,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
+  - UNDERSCORE
   - '-'
   - '='
   - '['
@@ -162,7 +162,7 @@ layers:
   - {t: ▽, type: trans}
   - (
   - )
-  - _
+  - UNDERSCORE
   - +
   - '{'
   - '}'
@@ -193,7 +193,7 @@ layers:
   - AC DESKTOP SHOW ALL WINDOWS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Ctl+BACKSPACE
+  - Alt+Ctl+BS
   - Alt+Ctl+Gui+LEFT ARROW
   - Ctl+Alt+LEFT ARROW
   - Ctl+Alt+ENTER
@@ -353,55 +353,59 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYSTEM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&to_layer_0'
-  - '&layer_4_bt1'
-  - {t: ▽, type: trans}
-  - '&layer_1_bt3'
-  - '&layer_1_bt4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: MAC, h: BT0}
+  - {t: MAC, h: BT1}
+  - ''
+  - {t: WIN, h: BT3}
+  - {t: WIN, h: BT4}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: MAC, h: toggle}
   - {t: WIN, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
+  - ''
+  - ''
+  - Reset
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Studio
+  - BT CLR
   - BT CLR ALL
 combos:
 - p: [13, 12]
   k: TAB
+  l: [MAC, WIN]
 - p: [12, 11]
   k: Sft+TAB
+  l: [MAC, WIN]
 - p: [13, 18]
-  k: '&caps_word'
+  k: Caps Word
+  l: [MAC, WIN]
 - p: [0, 1]
   k: ESCAPE
+  l: [MAC, WIN]
