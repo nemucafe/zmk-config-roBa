@@ -386,7 +386,7 @@ layers:
   - {t: WIN, h: toggle}
   - ''
   - ''
-  - Reset
+  - BT CLR
   - {type: held}
   - ''
   - ''
