@@ -10,10 +10,6 @@ parse_config:
     '&studio_unlock': Studio
     '&emoji': Emoji
 
-  zmk_additional_hold_taps:
-    - tmt
-    - hml
-
   zmk_keycode_map:
     EXCLAMATION: "!"
     EXCL: "!"
