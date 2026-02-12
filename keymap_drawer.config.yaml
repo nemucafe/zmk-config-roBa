@@ -1,0 +1,59 @@
+parse_config:
+  raw_binding_map:
+    '&sys_reset': Reset
+    '&bootloader': Boot
+    '&caps_word': Caps Word
+    '&to_layer_0': {t: MAC, h: BT0}
+    '&layer_4_bt1': {t: MAC, h: BT1}
+    '&layer_1_bt3': {t: WIN, h: BT3}
+    '&layer_1_bt4': {t: WIN, h: BT4}
+    '&studio_unlock': Studio
+    '&emoji': Emoji
+
+  zmk_additional_hold_taps:
+    - tmt
+    - hml
+
+  zmk_keycode_map:
+    EXCLAMATION: "!"
+    EXCL: "!"
+    C_PLAY_PAUSE: "▷||"
+    SEMICOLON: ";"
+    COMMA: ","
+    DOT: "."
+    SLASH: "/"
+    DELETE: "DEL"
+    BACKSPACE: "BS"
+    SINGLE_QUOTE: "'"
+    DOUBLE_QUOTES: "\""
+    TILDE: "~"
+    GRAVE: "`"
+    UNDER: "_"
+    COLON: ":"
+    PIPE: "|"
+    BACKSLASH: "\\"
+    AT_SIGN: "@"
+    HASH: "#"
+    DOLLAR: "$"
+    PERCENT: "%"
+    CARET: "^"
+    AMPERSAND: "&"
+    ASTERISK: "*"
+    LEFT_PARENTHESIS: "("
+    RIGHT_PARENTHESIS: ")"
+    LEFT_BRACKET: "["
+    RIGHT_BRACKET: "]"
+    LEFT_BRACE: "{"
+    RIGHT_BRACE: "}"
+    PLUS: "+"
+    EQUAL: "="
+    MINUS: "-"
+    LEFT: "←"
+    RIGHT: "→"
+    UP: "↑"
+    DOWN: "↓"
+
+draw_config:
+  dark_mode: auto
+  glyph_tap_size: 18
+  footer_text: 'roBa KEYMAPS | Created with keymap-drawer'
